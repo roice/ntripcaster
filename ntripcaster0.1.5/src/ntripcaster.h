@@ -156,7 +156,7 @@ typedef enum type_e {integer_e, real_e, string_e, function_e} type_t;
 #define MAXLISTEN 5		/* max number of listening ports */
 
 #ifndef HAVE_SOCKLEN_T
-typedef int socklen_t;
+//typedef int socklen_t;
 #endif
 
 #ifndef _WIN32
